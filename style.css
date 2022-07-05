@@ -98,9 +98,23 @@ font-size: 30px;
     background-color: rgb(182, 223, 249);
 }
 
+/* border form bar */
 .form-email{
-    display: flex;
+    margin: 10% ;       
 }
+.form-background-color {
+    background-color: blanchedalmond;
+}
+.form-design{
+        padding: 6px;
+        margin-top: 8px;
+        margin-right: 16px;
+        background: #ddd;
+        font-size: 17px;
+}
+
+
+/* footer */
 .footer{
     background-color: black;
     margin-bottom: 0;
