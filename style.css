@@ -23,7 +23,7 @@ h1{
     color: white;
 }
 p{
-color: white;
+color:silver;
 }
 .button{
     text-decoration: none;
@@ -35,9 +35,90 @@ color: white;
 /* tk button */
 .button-tk{
     padding: 30px 30px;
-    margin-left: 15px;
+    margin-left: 50px;
+    border: none;
+    border-radius: 5px;
+    background-color: white;
+    font-size: 15px;
+    font: bold;
 }
 .div-tk{
 display: flex;
-margin:5% 10%;
+margin:5% 20%;
+}
+#color_button{
+    background-color: aquamarine;
+    border: 3px solid rgb(153, 144, 238);
+    color: blueviolet;
+}
+.donate-today{
+    
+    text-align: center;
+    margin: 50px;
+}
+h2{
+font-size: 30px;
+}
+
+.other-amount{
+    text-align: center;
+    margin: 5%;
+}
+.other-amount-pading p{
+    margin-left: 20%;
+    margin-right: 20%;
+    border-bottom: 3px solid silver;
+    padding-bottom: 5px;
+}
+.button2{
+    padding-top: 15px;
+}
+.food{
+    display: flex;
+    margin: 5%;
+}
+.food-family{
+    margin: 1% ;
+    padding: 30px;
+    text-align: left;
+}
+.food-family h4{
+    font-size: 25px;
+}
+.food-family p{
+    color: rgb(94, 93, 93);
+}
+.div1{
+    background-color: rgb(188, 233, 188);
+}
+.div2 {
+    background-color: rgb(246, 196, 177);
+}
+.div3 {
+    background-color: rgb(182, 223, 249);
+}
+
+.form-email{
+    display: flex;
+}
+.footer{
+    background-color: black;
+    margin-bottom: 0;
+    text-align: center;
+    padding: 2%;
+}
+.footer h5{
+    color: orange;
+    font-size: 40px;
+    font-family: 'DM Sans', sans-serif;
+        font-family: 'Macondo', cursive;
+        font-family: 'Poppins', sans-serif;
+        font-family: 'The Nautigal', cursive;
+    
+}
+.footer h6{
+    color: aliceblue;
+    margin-bottom: 0;
+    padding-bottom: 1%;
+    
 }
