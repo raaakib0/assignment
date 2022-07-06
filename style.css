@@ -83,9 +83,12 @@ color:rgb(157, 155, 155);
 .button2{
     padding-top: 15px;
 }
+
+/* data plan chart */
 .food{
     display: flex;
     margin: 5%;
+    margin-top: 1%;
 }
 .food-family{
     margin: 1% ;
@@ -114,7 +117,6 @@ color:rgb(157, 155, 155);
     margin-bottom: 5%;
     background-color: antiquewhite;
     padding: 0px 10px;
-    /* border: 2px 2px 2px 2px dotted blue; */
     margin-right: 15%;
     border-bottom-right-radius: 500px;
     border-top-right-radius: 500px;
@@ -126,6 +128,7 @@ color:rgb(157, 155, 155);
     margin-left: 200px;
     padding: 60px 80px;
 }
+
 /* text part section */
 #they-need{
     margin-left: 0px;
@@ -137,8 +140,6 @@ color:rgb(157, 155, 155);
 
 #img2 img{
     margin-left: -20%;
-    /* padding-left: 0px;
-    padding-right: 0px; */
 }
 .middle-part-img img {
     width: 500px;
@@ -167,11 +168,11 @@ color:rgb(157, 155, 155);
 }
 
 /* form bar */
+
 .form-email{
     margin: 5% ;       
 }
 .form-background-color {
-    /* background-color: blanchedalmond; */
     margin-left: 20%;
     margin-right: 20%;
 }
@@ -208,21 +209,26 @@ color:rgb(157, 155, 155);
 /* footer */
 .footer{
     background-color: black;
-    margin-bottom: 0;
+    margin-bottom: 0px;
     text-align: center;
-    padding: 2%;
+    padding: 30px -1px;
+    margin-top: 0px;
+    padding-bottom: 20px;
 }
 .footer h5{
     color: orange;
-    font-size: 40px;
+    font-size: 60px;
+    font-weight: 500;
+    font: bold;
+    padding-top: 20px;
     font-family: 'DM Sans', sans-serif;
     font-family: 'Macondo', cursive;
     font-family: 'Poppins', sans-serif;
     font-family: 'The Nautigal', cursive;
 }
 .footer h6{
+    padding-top: -50px;
     color: aliceblue;
     margin-bottom: 0;
     padding-bottom: 1%;
-    
 }
