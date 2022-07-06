@@ -98,19 +98,29 @@ font-size: 30px;
     background-color: rgb(182, 223, 249);
 }
 
-/* border form bar */
+/* form bar */
 .form-email{
     margin: 10% ;       
 }
 .form-background-color {
-    background-color: blanchedalmond;
+    /* background-color: blanchedalmond; */
+    margin-left: 20%;
+    margin-right: 20%;
 }
 .form-design{
-        padding: 6px;
-        margin-top: 8px;
-        margin-right: 16px;
-        background: #ddd;
-        font-size: 17px;
+    padding: 30px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: lightblue;
+    font-size: 17px;
+    border-radius: 10px;
+}
+.form-design form{
+    margin: 30px;
+    text-align: center;
+}
+#s-button{
+    margin-left: 0%;
 }
 
 
@@ -125,10 +135,9 @@ font-size: 30px;
     color: orange;
     font-size: 40px;
     font-family: 'DM Sans', sans-serif;
-        font-family: 'Macondo', cursive;
-        font-family: 'Poppins', sans-serif;
-        font-family: 'The Nautigal', cursive;
-    
+    font-family: 'Macondo', cursive;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'The Nautigal', cursive;
 }
 .footer h6{
     color: aliceblue;
