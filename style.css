@@ -43,10 +43,10 @@ color:silver;
     font: bold;
 }
 .div-tk{
-display: flex;
-margin:5% 20%;
+    display: flex;
+    margin:5% 20%;
 }
-#color_button{
+#color-button{
     background-color: aquamarine;
     border: 3px solid rgb(153, 144, 238);
     color: blueviolet;
@@ -57,7 +57,7 @@ margin:5% 20%;
     margin: 50px;
 }
 h2{
-font-size: 30px;
+    font-size: 30px;
 }
 
 .other-amount{
@@ -111,7 +111,7 @@ font-size: 30px;
     padding: 30px;
     margin-top: 8px;
     margin-right: 16px;
-    background: lightblue;
+    background: rgba(170, 236, 120, 0.518);
     font-size: 17px;
     border-radius: 10px;
 }
@@ -119,8 +119,21 @@ font-size: 30px;
     margin: 30px;
     text-align: center;
 }
-#s-button{
-    margin-left: 0%;
+.form-design input{
+    padding: 10px 50px;
+    padding-left: 25px;
+   background-color: rgb(196, 193, 193);
+   border: none;
+   border-bottom-left-radius: 10px;
+   border-top-left-radius: 10px;
+}
+.s-button{
+    background-color: lightsalmon;
+    padding: 10px 15px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    color: white;
 }
 
 
