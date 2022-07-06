@@ -74,12 +74,21 @@ color:rgb(157, 155, 155);
     text-align: center;
     margin: 5%;
 }
-.other-amount-pading p{
-    margin-left: 20%;
-    margin-right: 20%;
+
+/* tk input field */
+.other-amount-pading form {
+    margin: 30px;
+    text-align: center;
     border-bottom: 3px solid silver;
-    padding-bottom: 5px;
 }
+
+.other-amount-pading input {
+    padding: 10px 580px;
+    padding-left: 45%;
+    border: none;
+}
+/* end */
+
 .button2{
     padding-top: 15px;
 }
