@@ -13,6 +13,7 @@ body{
     height: 600px;
     padding-top: 3%;
 }
+
 .no-blur p{
     color: white;
 }
@@ -33,6 +34,7 @@ color:silver;
     border-radius: 20px;
     padding: 10px 40px;
     background-color: lightgreen;
+    box-shadow: 2px 2px 2px 2px rgb(170, 215, 248);
 }
 
 /* tk button */
@@ -100,6 +102,45 @@ color:silver;
 }
 .div3 {
     background-color: rgb(182, 223, 249);
+}
+
+.section1 {
+    display: flex;
+    margin-top: 2%;
+    margin-bottom: 5%;
+    background-color: antiquewhite;
+    padding: 0px 10px;
+    /* border: 2px 2px 2px 2px dotted blue; */
+    margin-right: 15%;
+    border-radius: 20px;
+    box-shadow: -3px 3px 3px 3px lightblue;
+
+}
+
+.middle-part {
+    margin-left: 200px;
+    padding: 60px 80px;
+}
+
+.middle-part-img img {
+    width: 500px;
+    margin: 30%;
+    border-radius: 10px;
+    margin-left: 20%;
+}
+
+.button-contribute {
+    border-radius: 20px;
+    text-decoration: none;
+    background-image: linear-gradient(rgb(158, 204, 237) ,silver);
+    box-shadow:2px 2px 2px 2px rgb(89, 183, 250);
+    padding: 10px 30px;
+    margin-bottom: 30px;
+}
+
+.section2 {
+    margin-left: 15%;
+    margin-right: 0%;
 }
 
 /* form bar */
