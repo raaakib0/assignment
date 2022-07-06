@@ -47,9 +47,9 @@ color:silver;
     margin:5% 20%;
 }
 #color-button{
-    background-color: aquamarine;
-    border: 3px solid rgb(153, 144, 238);
-    color: blueviolet;
+    background-color: rgb(245, 182, 157);
+    border: 3px solid lightslategrey;
+    color: lightslategray;
 }
 .donate-today{
     
