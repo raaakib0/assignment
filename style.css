@@ -112,7 +112,8 @@ color:silver;
     padding: 0px 10px;
     /* border: 2px 2px 2px 2px dotted blue; */
     margin-right: 15%;
-    border-radius: 20px;
+    border-bottom-right-radius: 500px;
+    border-top-right-radius: 500px;
     box-shadow: -3px 3px 3px 3px lightblue;
 
 }
@@ -125,7 +126,7 @@ color:silver;
 .middle-part-img img {
     width: 500px;
     margin: 30%;
-    border-radius: 10px;
+    border-radius: 150px;
     margin-left: 20%;
 }
 
@@ -141,6 +142,10 @@ color:silver;
 .section2 {
     margin-left: 15%;
     margin-right: 0%;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 500px;
+    border-top-left-radius: 500px;
 }
 
 /* form bar */
