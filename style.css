@@ -27,7 +27,7 @@ h2 {
     font-size: 50px;
 }
 p{
-color:silver;
+color:rgb(157, 155, 155);
 }
 .button{
     text-decoration: none;
@@ -58,9 +58,13 @@ color:silver;
 }
 #donate-today-bg{
     background-color: antiquewhite;
+    background-image: linear-gradient( white ,rgba(188, 233, 188, 0.942),rgba(246, 197, 177, 0.948), rgba(182, 223, 249, 0.926),white);
     margin: 0;
     padding-top: 10px;
     padding-bottom: 50px;
+}
+#donate-today-bg p{
+    color: rgb(119, 115, 115);
 }
 .donate-today{
     text-align: center;
@@ -122,13 +126,27 @@ color:silver;
     margin-left: 200px;
     padding: 60px 80px;
 }
+/* text part section */
+#they-need{
+    margin-left: 0px;
+    margin-right: 200px;
+    padding-left: 100px;
+    padding-right: 50px;
+    
+}
 
+#img2 img{
+    margin-left: -20%;
+    /* padding-left: 0px;
+    padding-right: 0px; */
+}
 .middle-part-img img {
     width: 500px;
     margin: 30%;
     border-radius: 150px;
     margin-left: 20%;
 }
+
 
 .button-contribute {
     border-radius: 20px;
@@ -163,7 +181,7 @@ color:silver;
     margin-right: 16px;
     background: rgba(170, 236, 120, 0.518);
     font-size: 17px;
-    border-radius: 10px;
+    border-radius: 20px;
 }
 .form-design form{
     margin: 30px;
