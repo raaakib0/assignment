@@ -13,14 +13,17 @@ body{
     height: 600px;
     padding-top: 3%;
 }
-/* .no-blur{
-    filter: blur(0px);
-} */
+.no-blur p{
+    color: white;
+}
 h1{
     padding-top: 30px;
     font-size: 70px;
     font-weight: 700;
     color: white;
+}
+h2 {
+    font-size: 50px;
 }
 p{
 color:silver;
@@ -51,15 +54,16 @@ color:silver;
     border: 3px solid lightslategrey;
     color: lightslategray;
 }
+#donate-today-bg{
+    background-color: antiquewhite;
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 50px;
+}
 .donate-today{
-    
     text-align: center;
     margin: 50px;
 }
-h2{
-    font-size: 30px;
-}
-
 .other-amount{
     text-align: center;
     margin: 5%;
@@ -100,7 +104,7 @@ h2{
 
 /* form bar */
 .form-email{
-    margin: 10% ;       
+    margin: 5% ;       
 }
 .form-background-color {
     /* background-color: blanchedalmond; */
